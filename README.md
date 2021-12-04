@@ -1,2 +1,2 @@
 # FluffyCore
-Clear good fluffy core
+Clear good fluffy core for geometry dash
