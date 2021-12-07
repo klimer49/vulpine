@@ -52,8 +52,6 @@ if($server_status == 0) {
               background: #303339;
               border-top: 3px solid #525965;
               border-radius: 100px 100px 10px 10px;
-              /* margin-top: 100px; */
-              /* padding: 20px; */
               align-items: center;
               justify-content: center;
               text-align: center;
@@ -63,25 +61,12 @@ if($server_status == 0) {
 
               min-height: 100%;
             }
-            /* .logo {
-              background: -webkit-linear-gradient(to right #00DEFF, #4D90FF);
-              background: linear-gradient(to right, #00DEFF, #4D90FF);
-              background-size: 100%;
-              -webkit-background-clip: text;
-              -moz-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              -mo-text-fill-color: transparent;
-            } */
-            /* .title {
-                text-align: center;
-                font-size: 3em;
-                margin-top: 0px;
-                margin-bottom: 100px;
-            } */
+           
             .logo {
               font-size: 18px;
               color: #ffffff52;
             }
+            
             .services__card h1 span {
                 word-break: break-all;
                 background: -webkit-linear-gradient(to right #00DEFF, #4D90FF);
@@ -92,6 +77,7 @@ if($server_status == 0) {
                 -webkit-text-fill-color: transparent;
                 -mo-text-fill-color: transparent;
             }
+            
             input {
                 background-color: #303339;
                 border: 1px solid #00000000;
@@ -101,6 +87,7 @@ if($server_status == 0) {
                 color: white;
                 border-radius: 3px;
             }
+            
             input:hover {
                 background-color: #3A3E45;
                 border: 1px solid #00000000;
@@ -109,6 +96,7 @@ if($server_status == 0) {
                 padding: 3px;
                 border-radius: 3px;
             }
+            
             input:focus {
                 background-color: #303339;
                 border: 1px solid #494D55ff;
@@ -118,9 +106,11 @@ if($server_status == 0) {
                 border-radius: 5px;
                 transition: all 0.3s ease;
             }
+            
             .center {
                 text-align: center;
             }
+            
             #status {
                 <?php
                 if($mysql_status == 1) {
@@ -130,6 +120,7 @@ if($server_status == 0) {
                 }
                 ?>
             }
+            
             #status2 {
                 <?php
                 if($reg_status == 1) {
@@ -139,35 +130,42 @@ if($server_status == 0) {
                 }
                 ?>
             }
+            
             .input .error {
               border-left: 2px solid #FF7575;
             }
+            
             .error {
                 color: #FF7575;
             }
+            
             .button {
                 padding: 8px;
                 border-radius: 10px;
                 cursor: pointer;
                 background-color: #3ba55d;
             }
+            
             .button:hover {
                 padding: 8px;
                 border-radius: 10px;
                 cursor: pointer;
                 background-color: #4EAF6D;
             }
+            
             .button:focus {
                 padding: 8px;
                 border-radius: 10px;
                 cursor: pointer;
                 background-color: #4EAF6D;
             }
+            
             .lds-dual-ring {
               display: inline-block;
               margin-bottom: -2px;
               margin-left: 10px;
             }
+            
             .lds-dual-ring:after {
               content: " ";
               display: block;
@@ -178,6 +176,7 @@ if($server_status == 0) {
               border-color: #fff transparent #fff transparent;
               animation: lds-dual-ring 1.2s linear infinite;
             }
+            
             @keyframes lds-dual-ring {
               0% {
                 transform: rotate(0deg);
@@ -186,21 +185,24 @@ if($server_status == 0) {
                 transform: rotate(360deg);
               }
             }
+            
             @media only screen and (max-width: 1000px) {
               .main {
                 margin-top: 100px;
               }
+                
               .title {
                 margin-top: 1em;
               }
+                
               .services__wrapper {
                 align-items: center;
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 1fr;
               }
+                
               .services__card {
-                  /* max-width: 70%; */
                   margin: 30px;
                   height: 500px;
                   width: 450px;
@@ -211,6 +213,7 @@ if($server_status == 0) {
                   color: #fff;
                   background: #292b2f;
               }
+                
               .main {
                   width: 100%;
               }
@@ -280,11 +283,6 @@ if($server_status == 0) {
               }
               ?>
           </div>
-          <!-- <div class="services__card">
-            <h1><span>Пердеть сисями</span></h1>
-            <p>100 раз в день</p>
-            <p class="center"><input type="submit" class="button" value="Пук"></p>
-          </div> -->
         </div>
         <p class="logo">Vulpine GDPS core © Foxodever x Keisi</p>
     </div>
