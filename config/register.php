@@ -1,4 +1,3 @@
-
 <?php
 $captcha = false;
 $captcha_secret = "";
