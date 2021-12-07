@@ -1,5 +1,32 @@
 {
+    "name": "vulpine/vulpinecore",
+    "description": "Secure, clean, fluffy core for GDPS.",
+    "version": "1.0.0-dev",
+    "type": "project",
+    "keywords": [
+        "geometry dash",
+        "gdps",
+        "geometry dash private server",
+        "gdps core"
+    ],
+    "readme": "README.md",
     "require": {
         "phpmailer/phpmailer": "^6.5"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Foxodever",
+        "email": "contact@foxodever.com",
+        "homepage": "https://foxodever.com",
+        "role": "Owner"
+    }, {
+        "name": "Aleksey Demchenkov",
+        "email": "me@pelfox.dev",
+        "homepage": "https://pelfox.dev",
+        "role": "Contributor"
+    }],
+    "support": {
+        "issues": "https://github.com/foxodever/vulpine/issues",
+        "source": "https://github.com/foxodever/vulpine"
     }
 }

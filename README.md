@@ -1,6 +1,6 @@
 # FluffyCore
 
-Clear good fluffy core for geometry dash
+Secure, clean, fluffy core for GDPS.
 
 ### Dependencies
 * [Composer](https://github.com/composer/composer)
