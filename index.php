@@ -1,6 +1,8 @@
 <?php
 include "config/main.php";
-include "libs/main.php";
+if ($server_status == 1) {
+    include "libs/main.php";
+}
 if ($server_status == 0) {
     ?>
     <html>
@@ -420,4 +422,3 @@ if ($server_status == 0) {
         }
     }
 }
-?>

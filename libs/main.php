@@ -36,6 +36,15 @@ class main
             return false;
         }
     }
-}
 
-?>
+    // Pelfox patch start
+    /**
+     * @param String $output_string
+     * @return bool
+     */
+    public static function isComposerInstalled(String $output_string): bool
+    {
+        return str_starts_with($output_string, "Composer");
+    }
+    // Pelfox patch end
+}
