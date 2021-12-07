@@ -10,6 +10,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 if (!$is_composer_installed) {
     require '../php-mailer/PHPMailerAutoload.php';
+} else {
+    require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 }
 
 // Pelfox patch end
