@@ -8,4 +8,3 @@ $smtp_password = "";
 $smtp_server = "";
 $smtp_port = 465;
 $smtp_type = "";
-?>
