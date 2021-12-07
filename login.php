@@ -43,26 +43,6 @@
               cursor: pointer;
             }
 
-            /* .services__card #line span {
-              position: absolute;
-              top: -10px;
-              left: -10px;
-              width: 150px;
-              height: 150px;
-              background: red;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-            }
-
-            .services__card #line span::before {
-              content: '';
-              position: absolute;
-              width: 100%;
-              height: 40px;
-              background: blue;
-            } */
-
             .main {
               background: #303339;
               border-top: 3px solid #525965;
@@ -78,25 +58,12 @@
 
               min-height: 100%;
             }
-            /* .logo {
-              background: -webkit-linear-gradient(to right #00DEFF, #4D90FF);
-              background: linear-gradient(to right, #00DEFF, #4D90FF);
-              background-size: 100%;
-              -webkit-background-clip: text;
-              -moz-background-clip: text;
-              -webkit-text-fill-color: transparent;
-              -mo-text-fill-color: transparent;
-            } */
-            /* .title {
-                text-align: center;
-                font-size: 3em;
-                margin-top: 0px;
-                margin-bottom: 100px;
-            } */
+            
             .logo {
               font-size: 18px;
               color: #ffffff52;
             }
+            
             .services__card h1 span {
                 word-break: break-all;
                 background: -webkit-linear-gradient(to right #00DEFF, #4D90FF);
@@ -107,9 +74,11 @@
                 -webkit-text-fill-color: transparent;
                 -mo-text-fill-color: transparent;
             }
+            
             .inputblock {
               margin-top: 40px;
             }
+            
             input {
                 background-color: #303339;
                 border: 1px solid #00000000;
@@ -120,6 +89,7 @@
                 font-size: 24px;
                 border-radius: 3px;
             }
+            
             input:hover {
                 background-color: #3A3E45;
                 border: 1px solid #00000000;
@@ -128,6 +98,7 @@
                 padding: 3px;
                 border-radius: 3px;
             }
+            
             input:focus {
                 background-color: #303339;
                 border: 1px solid #494D55ff;
@@ -137,21 +108,27 @@
                 border-radius: 5px;
                 transition: all 0.3s ease;
             }
+            
             .center {
                 text-align: center;
             }
+            
             #status {
                 color: #FF7575;
             }
+            
             #status2 {
                 color: #FF7575;
             }
+            
             .input .error {
               border-left: 2px solid #FF7575;
             }
+            
             .error {
                 color: #FF7575;
             }
+            
             .button {
                 padding: 8px 30px;
                 border-radius: 10px;
@@ -159,23 +136,27 @@
                 background-color: #3ba55d;
                 transition: all 0.3s ease;
             }
+            
             .button:hover {
                 padding: 8px 30px;
                 border-radius: 10px;
                 cursor: pointer;
                 background-color: #4EAF6D;
             }
+            
             .button:focus {
                 padding: 8px 30px;
                 border-radius: 10px;
                 cursor: pointer;
                 background-color: #4EAF6D;
             }
+            
             .lds-dual-ring {
               display: inline-block;
               margin-bottom: -2px;
               margin-left: 10px;
             }
+            
             .lds-dual-ring:after {
               content: " ";
               display: block;
@@ -186,6 +167,7 @@
               border-color: #fff transparent #fff transparent;
               animation: lds-dual-ring 1.2s linear infinite;
             }
+            
             @keyframes lds-dual-ring {
               0% {
                 transform: rotate(0deg);
@@ -194,21 +176,24 @@
                 transform: rotate(360deg);
               }
             }
+            
             @media only screen and (max-width: 1000px) {
               .main {
                 margin-top: 100px;
               }
+                
               .title {
                 margin-top: 1em;
               }
+                
               .services__wrapper {
                 align-items: center;
                 display: grid;
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr 1fr;
               }
+                
               .services__card {
-                  /* max-width: 70%; */
                   margin: 30px;
                   height: 500px;
                   width: 300px;
@@ -219,16 +204,20 @@
                   color: #fff;
                   background: #292b2f;
               }
+                
               p {
                 font-size: 24px;
               }
+                
               input {
                 width: 280px;
               }
+                
               .main {
                   width: 100%;
               }
             }
+            
             @media only screen and (min-width: 1001px) {
               .main {
                   margin-left: 20%;
@@ -258,11 +247,6 @@
           <h1><span>Register</span> into gdps:</h1>
           <p>You must download gdps and register inside game first.</p>
           </div>
-          <!-- <div class="services__card">
-            <h1><span>Пердеть сисями</span></h1>
-            <p>100 раз в день</p>
-            <p class="center"><input type="submit" class="button" value="Пук"></p>
-          </div> -->
         </div>
         <p class="logo">Vulpine © Foxodever x Keisi</p>
     </div>

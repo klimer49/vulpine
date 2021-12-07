@@ -4,7 +4,7 @@ error_reporting(0);
 $conn = new mysqli($hostname, $username, $password, $database);
 // Check connection
 if ($conn->connect_error) {
-  die("Connection failed");
+  die("Can't connect to MySQL server. ");
 }
 $main = file_get_contents("config/main.php");
 $main = str_replace('$mysql_status = 0;', '$mysql_status = 1;', $main);

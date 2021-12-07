@@ -25,6 +25,4 @@ if($result->num_rows == 0) {
     $userID = $row["id"];
 }
 exit("$id,$userID");
-
-
 ?>
