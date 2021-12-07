@@ -33,7 +33,7 @@ if($smtp == "true") {
     try {
         $validCredentials = $mail->SmtpConnect();
     } catch(Exception $error) {
-        exit("Failed connect to SMTP");
+        exit("Cannot connect to SMTP server. ");
     }
     
 }
